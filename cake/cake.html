@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>J.S.C Cake</title>
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet2.css">
+  <link rel="icon" href="../img/logo.png" type="image/png" sizes="16x16">
+  <script src="../script/javascript.js"></script>
+</head>
+
+<body>
+    <!-- HEADER !-->
+    <div class="header">
+    <ul>
+      <li><a href="../cart.html" id="totalNumber">CART</a></li>
+      <li><a href="../about.html">ABOUT</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+      <li><a href="../menu.html">MENU</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">SHOP</a>
+        <div class="dropdown-content">
+          <a href="../cookie/cookie.html">Cookie</a>
+          <a href="../chocolate/chocolate.html">Chocolate</a>
+          <a href="../drink/drink.html">Drink</a>
+          <a href="../icecream/icecream.html">Ice Cream</a>
+          <a href="../cake/cake.html">Cake</a>
+        </div>
+      </li>
+      <li id="s"><a href="../index.html"><img id="logo" src="../img/logo.png" /></a></li>
+    </ul>
+    </div>
+
+    <!-- Content !-->
+    <div class="top">
+      <h2>CAKE</h2>
+      <hr/>
+    </div>
+    <div class="main">
+        <div class="mainBox">
+          <a class="picture-link" href="blueberry.html">
+              <img class="picture" src="../img/blueberry cake.png" />
+          </a>
+          <p class="text">Blueberry Cake</p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', blueberryCake, 0)">+</button>
+          <button class="minus" onclick="Minus('showNumber',blueberryCake, 0)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 0, 0)">ADD TO BASKET</button>
+        </div>
+        <div class="mainBox">
+          <a class="picture-link" href="cheese.html">
+              <img class="picture" src="../img/cheese cake.png" />
+          </a>
+          <p class="text">Cheese Cake</p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', cheeseCake, 1)">+</button>
+          <button class="minus" onclick="Minus('showNumber', cheeseCake, 1)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 1, 1)">ADD TO BASKET</button>
+        </div>
+        <div class="mainBox">
+          <a class="picture-link" href="mango.html">
+              <img class="picture" src="../img/mango cake.png" />
+          </a>
+          <p class="text">Mango Cake</p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', mangoCake, 2)">+</button>
+          <button class="minus" onclick="Minus('showNumber', mangoCake, 2)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 2, 2)">ADD TO BASKET</button>
+        </div>
+        <div class="mainBox">
+          <a class="picture-link" href="strawberry.html">
+              <img class="picture" src="../img/strawberrycake.png" />
+          </a>
+          <p class="text">Strawberry Cake</p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', strawberryCake, 3)">+</button>
+          <button class="minus" onclick="Minus('showNumber', strawberryCake, 3)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 3, 3)">ADD TO BASKET</button>
+        </div>
+        <div class="mainBox">
+          <a class="picture-link" href="tiramisu.html">
+              <img class="picture" src="../img/tiramisu.png" />
+          </a>
+          <p class="text">Tiramisu</p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', tiramisu, 4)">+</button>
+          <button class="minus" onclick="Minus('showNumber', tiramisu, 4)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 4, 4)">ADD TO BASKET</button>
+        </div>
+        <div class="mainBox">
+          <p class="text">Will be completed soon...</p>
+        </div>
+    </div>
+    <div class="footer"><footer>Copyright &copy; 2017 J.S.C</footer></div>
+</body>
+<script src="../script/javascript.js"></script>
+</html>

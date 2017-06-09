@@ -1,0 +1,60 @@
+.top {
+    height: 92px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 45px;
+  margin-bottom: -2px;
+  color: #170B3B;
+  margin-top: 80px;
+}
+
+.main {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 160px;
+  right: 0;
+  bottom: 0;
+}
+
+.mainBox {
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 350px;
+}
+
+.picture {
+  width: 260px;
+  height: 220px;
+  position: absolute;
+  display: block;
+  margin: 19px;
+  margin-top: 25px;
+}
+
+.text {
+  position: absolute;
+  display: block;
+  top: 260px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 23px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.reminder {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 18px;
+  font-weight: bold;
+}

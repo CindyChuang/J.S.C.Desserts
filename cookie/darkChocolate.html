@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>J.S.C Dark Chocolate Cookie</title>
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Patrick+Hand+SC" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
+  <link rel="stylesheet" type="text/css" href="../css/stylesheet3.css">
+  <link rel="icon" href="../img/logo.png" type="image/png" sizes="16x16">
+  <script src="../script/javascript.js"></script>
+</head>
+
+<body>
+    <!-- HEADER !-->
+    <div class="header">
+    <ul>
+      <li><a href="../cart.html" id="totalNumber">CART</a></li>
+      <li><a href="../about.html">ABOUT</a></li>
+      <li><a href="../contact.html">CONTACT</a></li>
+      <li><a href="../menu.html">MENU</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">SHOP</a>
+        <div class="dropdown-content">
+          <a href="../cookie/cookie.html">Cookie</a>
+          <a href="../chocolate/chocolate.html">Chocolate</a>
+          <a href="../drink/drink.html">Drink</a>
+          <a href="../icecream/icecream.html">Ice Cream</a>
+          <a href="../cake/cake.html">Cake</a>
+        </div>
+      </li>
+      <li id="s"><a href="../index.html"><img id="logo" src="../img/logo.png" /></a></li>
+    </ul>
+  </div>
+
+
+    <!-- Content !-->
+    <div class="top">
+      <h2>DARK CHOCOLATE COOKIE</h2>
+      <hr/>
+    </div>
+    <div class="main">
+        <div class="mainBox">
+          <img class="picture" src="../img/dark chocolate.png" />
+        </div>
+        <div class=content>
+          <p class="description">The edges get a little crisp while the centers are
+          soft and tender, try it out!</p>
+          <p class="price">Price: $30<p>
+          <input class="showNumber" type="text" value= "0" disabled />
+          <button class="add" onclick="Add('showNumber', darkChocolateCookie, 0)">+</button>
+          <button class="minus" onclick="Minus('showNumber', darkChocolateCookie, 0)">-</button>
+          <button class="addToCart" onclick="addToBasket('showNumber', 0, 8)">ADD TO BASKET</button>
+        <div>
+    </div>
+    <div class="footer2"><footer>Copyright &copy; 2017 J.S.C</footer></div>
+</body>
+</html>

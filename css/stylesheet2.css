@@ -1,0 +1,101 @@
+.top {
+    height: 92px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 45px;
+  margin-bottom: -2px;
+  color: #170B3B;
+  margin-top: 80px;
+}
+
+.main {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 160px;
+  right: 0;
+  bottom: 0;
+}
+
+.mainBox {
+  border: 2px solid black;
+  position: relative;
+  display: inline-block;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 300px;
+  height: 420px;
+}
+
+.picture-link {
+  position: absolute;
+  display: block;
+  margin: 9px;
+}
+
+.picture {
+  width: 280px;
+  height: 240px;
+  position: absolute;
+  display: block;
+}
+.picture:hover{
+  opacity:0.6;
+}
+
+.text {
+  position: absolute;
+  display: block;
+  top: 260px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 23px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.showNumber {
+  position: absolute;
+  display: inline-block;
+  top: 330px;
+  left: 43px;
+  height: 25px;
+  width: 125px;
+  border-radius: 1px;
+}
+
+.add {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  top: 330px;
+  left: 183px;
+  height: 30px;
+  border-radius: 0.5px;
+}
+
+.minus {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  top: 330px;
+  left: 218px;
+  height: 30px;
+  border-radius: 1px;
+}
+
+.addToCart {
+  position: absolute;
+  display: block;
+  top: 370px;
+  left: 43px;
+  width: 205px;
+  height: 30px;
+  border-radius: 2px;
+}

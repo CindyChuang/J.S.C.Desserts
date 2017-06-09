@@ -1,0 +1,108 @@
+.top {
+    height: 92px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 45px;
+  margin-bottom: -2px;
+  color: #170B3B;
+  margin-top: 80px;
+}
+
+#main {
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  border: 2px solid black;
+  z-index: 0;
+}
+
+.invoice {
+  color: black;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  margin-bottom: 25px;
+}
+
+.invoice2 {
+  color: black;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 25px;
+  margin-bottom: 10px;
+  display: inline;
+}
+
+#form {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#userInfo {
+  width: 897px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+#userInfo1 {
+  width: 900px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+#userInfo2 {
+  width: 925px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+#userInfo3 {
+  width: 940px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+#userInfo4 {
+  width: 823px;
+  height: 25px;
+  margin-bottom: -10px;
+}
+
+.box {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 19px;
+}
+
+.box1 {
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 21px;
+  color: red;
+}
+
+#send {
+  width: 100px;
+  height: 40px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 18px;
+  background-color: #58ACFA;
+}
+
+#reset {
+  width: 160px;
+  height: 35px;
+  border-radius: 6px;
+  color: white;
+  font-weight: bold;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 15px;
+  background-color: #58ACFA;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}

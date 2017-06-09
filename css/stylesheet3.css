@@ -1,0 +1,115 @@
+.top {
+    height: 92px;
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+h2 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 45px;
+  margin-bottom: -2px;
+  color: #170B3B;
+}
+
+.main {
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 160px;
+  right: 0;
+  bottom: 0;
+}
+
+.mainBox {
+  position: relative;
+  display: inline-block;
+  width: 350px;
+  height: 400px;
+}
+
+.picture {
+  width: 360px;
+  height: 320px;
+  position: relative;
+  display: block;
+  top: -20px;
+}
+
+.text {
+  position: absolute;
+  display: block;
+  top: 260px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-size: 23px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.showNumber {
+  position: absolute;
+  display: inline-block;
+  top: 290px;
+  left: 48px;
+  height: 25px;
+  width: 125px;
+  border-radius: 1px;
+}
+
+.add {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  top: 290px;
+  left: 188px;
+  height: 30px;
+  border-radius: 0.5px;
+}
+
+.minus {
+  position: absolute;
+  display: inline-block;
+  width: 30px;
+  top: 290px;
+  left: 223px;
+  height: 30px;
+  border-radius: 1px;
+}
+
+.addToCart {
+  position: absolute;
+  display: block;
+  top: 330px;
+  left: 48px;
+  width: 205px;
+  height: 30px;
+  border-radius: 2px;
+}
+
+.description {
+  position: absolute;
+  display: block;
+  top: 120px;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+.content {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 60px;
+  margin-top: 40px;
+  width: 300px;
+  height: 500px;
+}
+
+.price {
+  position: absolute;
+  display: block;
+  top: 215px;
+  font-size: 18px;
+  left: 10px;
+  font-weight: bold;
+  font-family: 'Patrick Hand SC', cursive;
+}

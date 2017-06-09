@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>J.S.C</title>
+  <link href="https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+  <link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+</head>
+
+<body onload="openModal()" onclick="closeModal()">
+  <div class="header">
+    <ul>
+      <li><a href="cart.html">CART</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li class="dropdown">
+        <a href="#" class="dropbtn">SHOP</a>
+        <div class="dropdown-content">
+          <a href="cookie/cookie.html">Cookie</a>
+          <a href="chocolate/chocolate.html">Chocolate</a>
+          <a href="drink/drink.html">Drink</a>
+          <a href="icecream/icecream.html">Ice Cream</a>
+          <a href="cake/cake.html">Cake</a>
+        </div>
+      </li>
+      <li id="s"><a href="index.html"><img id="logo" src="img/logo.png" /></a></li>
+    </ul>
+  </div>
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+  <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img id="percentImg" src="img/ad.png" />
+      <!-- 960*960 !-->
+    </div>
+  </div>
+  <div class="footer"><footer>Copyright &copy; 2017 J.S.C</footer></div>
+  <script src="script/javascript.js"></script>
+  <!-- Slideshow -->
+  <div id="imgGallery">
+    <img class="mySlides" src="img/pic3.png" />
+    <img class="mySlides" src="img/pic2.png" />
+    <img class="mySlides" src="img/pic1.png" />
+    <img class="mySlides" src="img/pic4.png" />
+  </div>
+  <script src="script/javascript2.js"></script>
+</body>
+</html>
